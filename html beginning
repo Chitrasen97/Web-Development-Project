@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    
+</body>
+<header>
+   <h1>97. WORLD</h1>
+   <main>
+    <section>
+        Introduction : Hello everyone this is Chitrasen. I am a aerospace engineering student studying at Jain University currently.
+    </section>
+    <section>
+        Education : Schooling (LA) | +2 (UA) | B. Tech (Jain University)
+    </section>
+    <section>
+        Work Experience : No!!!
+    </section>
+    <section>
+        Interest : table tennis, basketball, football, cricket etc.
+    </section>
+    <article> My Journey: I belong from Nepal and am here to study aerospace engineering.</article>
+    <aside> This is an add</aside>
+    <h2>Universities I applied for</h2>
+    <ul>
+        <li>Idaho State University</li>
+        <li>Kent State University</li>
+        <li>University of Michigan, etc...</li>
+    </ul>
+    <h2>Branches of Aerospace Engineering</h2>
+    <ol>
+        <li>Designing</li>
+        <li>Propulsion</li>
+        <li>Testing</li>
+        <li>Data Analyst, etc...</li>
+    </ol>
+</main>
+<label>
+    <input type="radio" value="CSE" name="branch" id="id101">CSE
+</label>
+<br>
+<label>
+    <input type="radio" value="ASE" name="branch" id="id102">ASE
+</label>
+<form action="/action.php">
+    <input type="text" placeholder="username">
+</form>
+<br>
+<form action="/action.php">
+    <input type="password" placeholder="Password">
+</form>
+<h3><u>select your respective subjects</h3></u>
+<label>
+    <input type="checkbox" value="intro to Aerospace" name="subject">Intro to Aerospace
+</label>
+<br>
+<label>
+    <input type="checkbox" value="maths" name="subject">maths
+</label>
+<br>
+<label>
+    <input type="checkbox" value="html" name="subject">html
+</label>
+<br>
+<label>
+    <input type="checkbox" value="fluid" name="subject">fluid
+</label>
+<br>
+<table>
+    <thead>
+    <caption>
+        <b><u>STUDENT INFORMATION</u></b>
+    </caption>
+    <tr>
+        <th>NAME</th>
+        <th>BRANCH</th>
+        <th>USN</th>
+    </tr>
+    </thead>
+    <tbody>
+    <tr>
+        <td>CHITRASEN</td>
+        <TD>AEROSPACE ENGINEERING</TD>
+        <TD>22BTRASO59</TD>
+    </tr>
+    <tr>
+        <td>ISHA</td>
+        <TD>COMPUTER SCI ENG</TD>
+        <TD>22BTRCN112</TD>
+    </tr>
+    <TR>
+        <TD>NIKITA PANDEY</TD>
+        <TD>COMPUTER SCI ENG</TD>
+        <TD>22BTRCN190</TD>
+    </TR>
+    <TR>
+        <TD>SNEHA JAISWAL</TD>
+        <TD>AEROSPACE ENG</TD>
+        <TD>22BTRAN023</TD>
+    </TR>
+    </tbody>
+</table>
+<h3><u>Select Your City</u></h3>
+<select name="city">
+    <option value="Banglore">Banglore</option>
+    <option value="Chennai">Chennai</option>
+    <option value="delhi">Delhi</option>
+    <option value="Mumbai">Mumbai</option>
+</select>
+   <footer>
+    <h4>reach me at chitraky97@gmial.com</h4>
+   </footer>
+   <textarea name="feedback" placeholder="review" here column="5" rows="5">
+   </textarea>
+<br>
+<input type="submit" value="submit">
+<iframe src="https://www.hal-india.co.in"/ iframe>
+</header>
+</html>
