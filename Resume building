@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Resume</title>
+</head>
+<body>
+    <table>
+        <tr>
+            <td>
+                <img width="300" src="https://media.licdn.com/dms/image/D5603AQGG7wiIVn7f3A/profile-displayphoto-shrink_800_800/0/1684673292679?e=1718236800&v=beta&t=ugMK7KZR3zvJ73LiXNvQxed6MhyKb8TKTXbigsnYLwQ" alt="My Photo">
+            </td>
+            <td>
+                <h1>Chitrasen Kumar Yadav</h1>
+                <p><i>Aerospace Engineering student and a Web development enthusiast.</p></i>
+                <p><b>I am passionate about Aerospace Engineering.🚀 </b></p> 
+            </td>
+        </tr>
+    </table>
+    <h2>Contact</h2>
+    <p>Phone: +918197387500</p>
+    <p>mail: chitraky97@gmail.com</p>
+    <p>github: https://github.com/Chitrasen97</p>
+    <p>LinkedIn: https://www.linkedin.com/in/chitrasen-yadav-b10060179/</p>
+    <p>Location: Bengaluru, India</p>
+    <hr>
+    <h2>Objective</h2>
+    <p><i>Motivated and ambitious second-year Aerospace Engineering student eager to apply theoretical knowledge and hands-on skills to contribute to groundbreaking projects in the aerospace industry. Seeking an internship opportunity where I can learn from experienced professionals, gain practical experience in aerospace engineering principles, and contribute to the development of innovative solutions that push the boundaries of aerospace technology.</i>
+    </p>
+    <hr>
+    <h2>Education</h2>
+    <table border="">
+        <tr>
+            <th>Course</th>
+            <th>Institute</th>
+            <th>Year</th>
+            <th>Result</th>
+        </tr>
+        <tr>
+            <td>Schooling(10)</td>
+            <td>Little Angles' School</td>
+            <td>2019</td>
+            <td>3.7(93.75%)</td>
+        </tr>
+        <tr>
+            <td>Schooling(+2)</td>
+            <td>United Academy</td>
+            <td>2021</td>
+            <td>3.57(89.25%)</td>
+        </tr>
+    </table>
+    <hr>
+    <h2>Internships</h2>
+    <p><i><b>Aircraft Design</b> at Wayspire</i></p>
+    <ol> 
+        <li><i>Learned ANSYS Software at a beginning level.</i></li>
+
+    </ol>
+    <hr>
+    <h2>Projects</h2>
+    <hr>
+    <p><i>no project yet.</i></p>
+    <hr>
+    <h2>Work Experience</h2>
+    <p><i>No Experience</i></p>
+    <hr>
+    <h2>Skills</h2>
+    <p>Technical skills:</p>
+    <ol><i>
+        <li>Proficiency in engineering software such as MATLAB, SolidWorks, ANSYS.</li>
+        <li>Familiar with aerospace materials and their properties.</li>
+        <li>Experience with CAD modeling and drafting.</li>
+        <li>Understanding of aerodynamics, propulsion systems and flight dynamics.</li>
+        <li>Good at HTML.</li>
+    </i></ol>
+    <p>Analytical Skills:</p>
+    <ol><i>
+        <li>Strong problem-solving abilities and critical thinking skills.</li>
+        <li>Aptitude for mathematical modeling and simulation.</li>
+        <li>Ability to analyze complex aerospace systems and identify areas for improvement.</li>
+        <li>Ability to work collaboratively in a team environment.</li>
+        <li>Resilience in the face of challenges and ability to persevere until solutions are found.</li>
+        <li>Ability to prioritize tasks and manage workload effectively</li>
+        <li>Experience managing project timelines and deliverables.</li>
+    </i></ol>
+    <hr>
+    <h2>Interest</h2>
+    <ol><i>
+        <li>Aviation</li>
+        <li>Astronomy and Space EXploration</li>
+        <li>Sports</li>
+        <li>Volunteer Work</li>
+        <li>Travelling</li>
+        <li>Open to new things</li>
+        <li>Web development</li>
+    </i></ol>
+    <hr>
+    <h2>Languages</h2>
+    <ol>
+        <li>Fluent English</li>
+        <li>FLuent Nepali</li>
+        <li>Fluent Maithili</li>
+        <li>Beginner Hindi</li>
+    </ol>
+    <hr>
+</body>
+</html>
