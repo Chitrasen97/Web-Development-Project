@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body background="https://media0.giphy.com/media/wK8VC0x0jRWqTTlmYQ/giphy.gif?cid=ecf05e47vna54f1c2ns6a8jsgptgkxblp9ikq50mmnv112t4&ep=v1_gifs_gifId&rid=giphy.gif&ct=g">
+    <h1><center>Welcome!!!</center></h1>
+    <table border="0" width="50%" height="500px" align="center" bgcolor="https://img.freepik.com/free-vector/creative-geometric-design-space_53876-89781.jpg?w=900&t=st=1712924520~exp=1712925120~hmac=60fcc95a15aa65e8a7cbf6f6edc0949337015bae20edce81909c4d439c3a9b1b" cellpadding="10">
+        <tr>
+            <td colspan="2"><font size="5" face="Pristina" color="white"><center>My Portfolio</center></font></td>
+        </tr>
+
+        <tr>
+            <td>
+                <font size="5" color="white" face="Pristina">Hey!!! This is Chitrasen.</font>
+                <br>
+        
+                <font size="4" color="white" face="Pristina">Aerospace Engineer</font>
+                <font size="3" color="white" face="Pristina">
+                    <p><b><u>Educational Criteria</b></u></p>
+                    <p>10, +2, B tech</p>
+                </font>
+
+                <font size="3" color="white" face="Pristina">
+                    <p><b><u>Experience</b></u></p>
+                    <p>No</p>
+                </font>
+
+                <font size="3" color="white" face="Pristina">
+                    <p><b><u>Skills</b></u></p>
+                    <p>HTML</p>
+                    <p>Ansys</p>
+                    <p>Matlab,etc...</p>
+                </font>
+
+                <font size="3" color="white" face="Pristina">
+                    <p><b><u>COntact Us</b></u></p>
+                    <p>&#9743: +918197387500</p>
+                    <p>&#128231: chitraky97@gmail.com</p>
+                </font>
+            </td>
+            <td><img src="https://media.licdn.com/dms/image/D5603AQGG7wiIVn7f3A/profile-displayphoto-shrink_800_800/0/1684673292679?e=1718236800&v=beta&t=ugMK7KZR3zvJ73LiXNvQxed6MhyKb8TKTXbigsnYLwQ" height="400px" widht="800"></td>
+        </tr>
+    </table>
+</body>
+</html>
