@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 id="hd1">Hello, this is Chitrasen!</h1>
+    <h1 id="hd2">CSS day:01</h1>
+    <h1 class="myclass">Intro:</h1>
+    <p class="myclass">Welcome. I have started my CSS journey today itself, its day-01 here we will check out more about CSS and get updated here.</p>
+    <p class="myclass">If you want to know more<button>click me</button></p>
+</body>
+</html>
