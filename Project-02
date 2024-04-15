@@ -1,0 +1,19 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1>welcome</h1>
+    <p>Hey! this is Chitrasen from Jain University currentlyl pursuing B. Tech in Aerospace Engineering. I am also interested in web development so I am learning CSS and have completed HTML.</p>
+    <div id="outer">
+        I am also involved in gaming activities.
+        <div id="inner">
+        <p>I love playing games
+        </div>
+    </div>
+</body>
+</html>
