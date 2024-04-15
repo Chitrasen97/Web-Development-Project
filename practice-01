@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        button{
+           background-color:blue}
+       </style>
+</head>
+<body>
+   <div id="box">
+    This is my first Project.
+   </div>
+   <h1 class="heading">Chitrasen.</h1>
+   <h2 class="heading">Chitrasen.</h2>
+   <h3 class="heading">Chitrasen.</h3>
+
+   <h1><button>click me</button></h1>
+</body>
+</html>
