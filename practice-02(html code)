@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        button{background-color: blue;}
+    </style>
+</head>
+<body>
+    <header>
+      <div id="navbar"> 
+      <a id="logo">Amazon.in</a> 
+      <a>Account</a>
+      <a>My Carts</a>
+      <a>Contact Us</a>
+        <input placeholder="search Amazon.in">
+        <button>search</button>
+    </div>
+    </header>
+    <div id="content">
+        <div class="contentbox" style="background-color: rgba(255,0,0,0.5);">Order something</div>
+        <div class="contentbox" style="background-color: rgba(0, 255, 0, 0.5);">Watch movies</div>
+        <div class="contentbox" style="background-color: rgba(0, 0, 255, 0.5);">Rent Cars</div>
+    </div>
+    <footer>Made by Chitrasen.
+    </footer>
+</body>
+</html>
