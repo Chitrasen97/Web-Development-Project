@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Project 2</title>
+    <link rel="stylesheet" href="style.css">
+    <style>
+        button{background-color: blue;}
+    </style>
+</head>
+<body>
+    <h1>INTRODUCTION</h1>
+    <p id="one">My name is <b>Chitrasen Kumar Yadav</b>. I am a dedicated and enthusiastic professional with a strong background in <b>Aerospace Engineering</b>. With 2 years years of experience in <b>Simulation</b>. I have honed my skills in <b>CAD, HTML, CSS, Simulation, Solidworks</b>. I am passionate about continuous learning and professional growth, and I strive to excel in all my endeavors.</p> 
+       
+   <div id="two">My ability of problem-solving, teamwork, and leadership has enabled me to contribute effectively to  team projects I have been part of. I am committed to delivering high-quality results and constantly seeking opportunities to innovate and improve.</div> 
+   
+    <p id="three">I am eager to bring my expertise and passion to new challenges and am always looking to collaborate with like-minded professionals to achieve shared goals.</p>
+    <button><a href="https://www.youtube.com">click me</a></button>
+    <div id="navbar">
+        <a id="logo">CK97.in</a>
+        <a>Account</a>
+        <a>My Cart</a>
+        <a>Contact Us</a>
+        <input placeholder="only Chitrasen.">
+        <button>search</button>
+    </div>
+
+    <div id="a">Red light</div>
+    <div id="b">Yellow light</div>
+    <div id="c">Green light</div>
+</body>
+</html>
