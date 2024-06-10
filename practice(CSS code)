@@ -1,0 +1,106 @@
+h1{
+    text-align: center;
+    text-decoration:underline;
+    font-family: 'Times New Roman';
+    text-transform: capitalized;
+    height: 50px;
+    width: 1200px;
+    background-color: aqua;
+}
+
+#one{
+    font-family: 'Times New Roman';
+    height: 100px;
+    width: 1200px;
+    background-color: antiquewhite;
+}
+
+#two{
+    font-family:'Times New Roman';
+    height: 73px;
+    width: 1200px;
+    background-color: blanchedalmond;
+}
+
+#three{
+    font-family: 'Times New Roman';
+    height: 55px;
+    width: 1200px;
+    background-color: grey;
+}
+button{
+    font-family: 'Times New Roman';
+    background-color: white;
+    text-align: center;
+}
+
+a{
+    color: black;
+    text-decoration: none;
+    font-family: 'Times New Roman';
+    text-align: center;
+}
+
+body{
+    border-width: 2px;
+    border-style: solid;
+    border-color: black;
+    border-radius: 15px;
+    padding-left: 25px;
+    padding-right: 25px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+*{
+    color: white;
+}
+
+#navbar{
+    height: 60px;
+    background-color: #0f1111;
+}
+
+button{
+    font-family: 'Times New Roman';
+    background-color: #f08804;
+    text-align: center;
+}
+
+#logo{
+    color:lightblue;
+}
+
+a{
+    margin-right: 200px;
+}
+
+#a{
+    background: red;
+    opacity: .3;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 25px;
+    padding: 25px;
+}
+
+#b{
+    background:rgb(247, 247, 100);
+    opacity: .9;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 25px;
+    padding: 25px;
+}
+
+#c{
+    background:green;
+    opacity: .89;
+    height: 100px;
+    width: 100px;
+    text-align: center;
+    margin: 25px;
+    padding: 25px;
+}
