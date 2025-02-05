@@ -1,0 +1,21 @@
+const hero = document.querySelector('.hero');
+const elements = document.querySelectorAll('.animate-element');
+
+const observer = new IntersectionObserver(entries => {
+    entries.forEach(entry => {
+        if (entry.isIntersecting) {
+            hero.classList.add('in-view');
+            observer.unobserve(hero);
+        }
+    });
+});
+
+observer.observe(hero);
+
+function openModal() {
+    document.getElementById("bookingModal").style.display = "block";
+}
+
+function closeModal() {
+    document.getElementById("bookingModal").style.display = "none";
+}
