@@ -1,0 +1,257 @@
+
+body {
+    font-family: 'Roboto', sans-serif;
+    margin: 0;
+    line-height: 1.6;
+    color: #333;
+    background: url('nepal railway.jpg') center center fixed;
+    background-size: cover;
+    position: relative;
+}
+
+body::before { 
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.3);
+}
+
+.header-content, .hero-content, .footer-content {
+    width: 90%;
+    margin: 0 auto;
+    max-width: 960px;
+    position: relative;
+    z-index: 1; 
+}
+
+
+header {
+    padding: 20px 0;
+    text-align: center;
+}
+
+header h1 {
+    color: #DC143C;
+    text-shadow: -1px -1px 0 #FFFFFF, 1px -1px 0 #FFFFFF, -1px 1px 0 #FFFFFF, 1px 1px 0 #FFFFFF;
+    margin-bottom: 10px;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+    gap: 20px;
+}
+
+nav a {
+    text-decoration: none;
+    color: #fff;
+}
+
+#language-selector {
+    appearance: none;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    background: transparent;
+    border: none;
+    padding: 10px 15px; 
+    margin: 0;
+    font-size: inherit;
+    color: white;
+    cursor: pointer;
+    outline: none;
+}
+
+#language-selector::-ms-expand {
+    display: none;
+}
+
+#language-selector::after {
+    content: '\279C';
+    position: absolute;
+    top: 50%;
+    right: 10px;
+    transform: translateY(-50%);
+    pointer-events: none;
+    color: white;
+}
+
+#language-selector:hover {
+    color: lightgray;
+}
+
+.auth-buttons {
+    position: absolute; 
+    top: 20px;
+    right: 20px;
+    display: flex;
+    gap: 10px;
+    z-index: 20; 
+}
+
+.login-button, .signup-button {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 16px;
+    color: white;
+    background-color: #dc143c; /* Red */
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3), 1px 1px 2px rgba(255, 255, 255, 0.2) inset;
+}
+
+.signup-button {
+    background-color: #007bff; 
+}
+
+.login-button:hover, .signup-button:hover {
+    transform: scale(1.03);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4), 1px 1px 3px rgba(255, 255, 255, 0.3) inset;
+}
+
+.login-button:active, .signup-button:active {
+    transform: scale(0.97);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), 1px 1px 1px rgba(255, 255, 255, 0.1) inset;
+}
+
+.hero {
+    padding: 100px 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 400px;
+}
+
+.hero-content {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding-left: 50px;
+}
+
+.welcome-message {
+    font-size: 3em;
+    font-weight: bold;
+    color: #fff;
+    margin-bottom: 10px;
+}
+
+.slogan {
+    font-size: 1.5em;
+    color: #fff;
+    margin-bottom: 20px;
+}
+
+.cta-button {
+    display: inline-block;
+    padding: 15px 30px;
+    background-color: #dc143c; /* Match Login button */
+    color: white;
+    text-decoration: none;
+    border: none;
+    border-radius: 5px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: transform 0.2s ease, box-shadow 0.2s ease;
+    box-shadow: 3px 3px 8px rgba(0, 0, 0, 0.3), 1px 1px 2px rgba(255, 255, 255, 0.2) inset;
+}
+
+.cta-button:hover {
+    transform: scale(1.03);
+    box-shadow: 4px 4px 10px rgba(0, 0, 0, 0.4), 1px 1px 3px rgba(255, 255, 255, 0.3) inset;
+}
+}
+
+.cta-button:active {
+    transform: scale(0.97);
+    box-shadow: 2px 2px 5px rgba(0, 0, 0, 0.2), 1px 1px 1px rgba(255, 255, 255, 0.1) inset;
+}
+
+.modal {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+}
+
+.modal-content {
+    background-color: white;
+    margin: 15% auto;
+    padding: 20px;
+    width: 50%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.close {
+    float: right;
+    font-size: 24px;
+    cursor: pointer;
+}
+
+
+footer {
+    padding: 20px 0;
+    text-align: center;
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.5);
+    color: #fff;
+}
+
+.animate-element {
+    opacity: 0; 
+    transform: translateY(20px);
+    transition: opacity 1s ease, transform 1s ease; 
+}
+
+.welcome-message {
+    transition-delay: 0.2s;
+}
+
+.slogan {
+    transition-delay: 0.4s;
+}
+
+.hero.in-view .animate-element {
+    opacity: 1;
+    transform: translateY(0);
+}
+
+.flag-icon {
+    position: absolute;
+    top: 20px;
+    left: 20px;
+    width: 70px;
+    height: auto;
+    z-index: 10;
+}
+
+.flag-icon img {
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    display: block;
+}
+
+@media (max-width: 768px) {
+    .header-content {
+        flex-direction: column; 
+    }
+
+    .auth-buttons {
+        position: relative;
+        top: auto;
+        right: auto;
+        margin-top: 10px;
