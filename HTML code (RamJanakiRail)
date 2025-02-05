@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>RamJanakiRail - Train Ticket Booking</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+</head>
+<body>
+    <div class="flag-icon flag-left">
+        <img src="Nepal_flag_with_emblem.gif" alt="Nepal Flag"> 
+    </div>
+    <header>
+        <div class="header-content">
+            <h1>RamJanakiRail</h1>
+            <nav>
+                <ul>
+                    <li><a href="#home">Home</a></li>
+                    <li><a href="#about">About Us</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li>
+                        <select id="language-selector">
+                            <option value="en">English</option>
+                            <option value="mai">Maithili</option>
+                            <option value="ne">Nepali</option>
+                            <option value="hi">Hindi</option>
+                        </select>
+                    </li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <button class="login-button">Login</button>
+                <button class="signup-button">Sign Up</button>
+            </div>
+        </div>
+    </header>
+
+    <section id="home" class="hero">
+        <div class="hero-content">
+            <h2 class="welcome-message animate-element">Welcome to RamJanakiRail</h2>
+            <p class="slogan animate-element">Book your train tickets with ease.</p>
+            <button class="cta-button animate-element">Book Now</button>
+        </div>
+    </section>
+
+    <footer>
+        <div class="footer-content">
+            <p>&copy; 2025 RamJanakiRail. All Rights Reserved.</p>
+        </div>
+    </footer>
+
+    <script src="script.js"></script>
+</body>
+</html>
