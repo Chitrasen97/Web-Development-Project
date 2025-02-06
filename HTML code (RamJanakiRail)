@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -9,9 +10,10 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
 </head>
+
 <body>
     <div class="flag-icon flag-left">
-        <img src="Nepal_flag_with_emblem.gif" alt="Nepal Flag"> 
+        <img src="Nepal_flag_with_emblem.gif" alt="Nepal Flag">
     </div>
     <header>
         <div class="header-content">
@@ -33,7 +35,8 @@
             </nav>
             <div class="auth-buttons">
                 <button class="login-button">Login</button>
-                <button id="openSignUpForm" class="signup-button">Sign Up</button> </div>
+                <button id="openSignUpForm" class="signup-button">Sign Up</button>
+            </div>
         </div>
     </header>
 
@@ -54,30 +57,34 @@
     <div id="signUpForm" class="modal">
         <div class="modal-content">
             <span class="close">&times;</span>
-            <div class="form-container"><h2>Sign Up</h2>
+            <div class="form-container">
+                <h2>Sign Up</h2>
                 <form id="signup-form">
-                    <label for="name">Name</label><br>
+                    <label for="name">Name</label>
                     <input type="text" id="name" name="name" required><br><br>
 
-                    <label for="email">Email</label><br>
+                    <label for="email">Email</label>
                     <input type="email" id="email" name="email" required><br><br>
 
-                    <label for="password">Password</label><br>
+                    <label for="password">Password</label>
                     <input type="password" id="password" name="password" required><br><br>
 
                     <button type="submit">Sign Up</button>
 
                     <p>Already have an account? <a href="#">Log In</a></p>
-                    <hr>
-                    <p class="or">or</p>
+
+                    <div class="or-container">
+                        <hr>
+                        <span class="or">or</span>
+                        <hr> </div>
                     <button type="button" class="google-signup">
-                        <img src="google sign up.png" alt="Sign up with Google"><p>Sign Up With Google</p>
-                    </button>
+                        <img src="google sign up.png" alt="Sign up with Google">
+                        <span>Sign Up With Google</span> </button>
                 </form>
-                <span class="close">&times;</span>
             </div>
         </div>
     </div>
     <script src="script.js"></script>
 </body>
+
 </html>
