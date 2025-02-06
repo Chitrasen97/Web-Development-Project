@@ -1,21 +1,35 @@
-const hero = document.querySelector('.hero');
-const elements = document.querySelectorAll('.animate-element');
+document.addEventListener('DOMContentLoaded', () => {
+    const openSignUpFormButton = document.getElementById('openSignUpForm');
+    const signUpForm = document.getElementById('signUpForm');
+    const closeButton = document.querySelector('.close');
+    const signupForm = document.getElementById('signup-form');
 
-const observer = new IntersectionObserver(entries => {
-    entries.forEach(entry => {
-        if (entry.isIntersecting) {
-            hero.classList.add('in-view');
-            observer.unobserve(hero);
-        }
+    // Intersection Observer (if needed - explained below)
+    const observer = new IntersectionObserver(entries => {
+        entries.forEach(entry => {
+            if (entry.isIntersecting) {
+                hero.classList.add('in-view');
+                observer.unobserve(hero);
+            }
+        });
+    });
+
+    // Only observe hero if it exists (to prevent errors)
+    const hero = document.querySelector('.hero'); // Get hero *inside* the DOMContentLoaded
+    if (hero) {
+        observer.observe(hero);
+    }
+
+    openSignUpFormButton.addEventListener('click', () => {
+        signUpForm.style.display = 'flex'; // 'flex' is generally preferred for centering
+    });
+
+    closeButton.addEventListener('click', () => {
+        signUpForm.style.display = 'none';
+    });
+
+    signupForm.addEventListener('submit', (event) => {
+        event.preventDefault();
+        alert('Sign Up form submitted (placeholder).');
     });
 });
-
-observer.observe(hero);
-
-function openModal() {
-    document.getElementById("bookingModal").style.display = "block";
-}
-
-function closeModal() {
-    document.getElementById("bookingModal").style.display = "none";
-}
