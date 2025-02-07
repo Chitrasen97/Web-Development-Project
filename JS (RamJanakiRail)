@@ -5,6 +5,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const signupForm = document.getElementById('signup-form');
 
     // Intersection Observer (if needed - explained below)
+    const hero = document.querySelector('.hero'); // Get hero *inside* the DOMContentLoaded
     const observer = new IntersectionObserver(entries => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
@@ -15,7 +16,7 @@ document.addEventListener('DOMContentLoaded', () => {
     });
 
     // Only observe hero if it exists (to prevent errors)
-    const hero = document.querySelector('.hero'); // Get hero *inside* the DOMContentLoaded
+    
     if (hero) {
         observer.observe(hero);
     }
